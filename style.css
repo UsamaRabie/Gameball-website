@@ -1,0 +1,327 @@
+/* make the website start from max left top*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* styling the nav bar */
+nav{
+    background-color: rgb(255, 207, 72);
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 5%;
+    z-index: 3;
+}
+.top{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+header{
+    padding-top: 3% !important;
+}
+a{
+    color: black;
+    font-weight: 900;
+   
+}
+
+/* styling the header and buttons */
+button{
+    color: gray;
+    background-color: white;
+    font-size: 20px;
+    border: 0ch;
+
+}
+
+/* styling operation of product*/
+
+.dropbtn {
+    background-color: white;
+    color: gray;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 650px;
+  
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    left: 51%;
+        transform: translateX(-51%);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+
+
+/* first section */
+
+.dropdown-content a:hover {
+   text-decoration: underline;
+   
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    justify-content: space-between;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+
+/* styling Recourses */
+.first,
+.second,
+.third,
+.fourth,
+.fifth {
+    background-color: rgb(250, 250, 250);
+    margin: 20px;
+
+}
+.first:hover , .second:hover , .third:hover  , .fourth:hover ,  .fifth:hover {
+    background-color:white ;
+}
+
+.resourse{
+    background-color: rgb(255, 207, 72);
+}
+
+
+.login{
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.btn{
+    color: white;
+        background-color: black;
+        padding: 10px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 15px;
+        margin-left: 20%;
+        width: 160px;
+       
+}
+
+.install
+{
+    color: white;
+text-decoration: none;
+
+}
+.btn:hover
+{
+    background-color: rgb(255, 207, 72);
+    cursor: pointer;
+}
+
+header{
+    margin-left: 15%;
+    display: flex;
+}
+
+.disp{
+    margin-left: 15%;
+    display: flex;
+}
+
+.log{
+    margin-left: 15%;
+        display: flex;
+}
+
+/* styling first section */
+
+.true{
+    display: flex;
+    
+}
+.true1 , .true2{
+    margin-left: 5%;
+}
+
+.container{
+    margin-left: 15%;
+    margin-top: 5%;
+    display: flex;
+}
+
+.txt{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.myimg{
+max-width: 200px;
+    margin-right: 3%;
+    margin-top: 5%;
+}
+
+
+
+.mydiv{
+    display: flex;
+}
+
+.include{
+    border: 5px solid gray;
+    border-radius: 50px;
+    width: 70%;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 3%;
+}
+
+.container1
+{
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    margin-top: 0%;
+}
+
+/* third section icons */
+
+.op{
+    width: 80px;
+    margin-left: 5%;
+    margin-bottom: 20%;
+    border-radius: 20px;
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+}
+/* Active option */
+.active{
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 4%;
+    justify-content: center;
+
+}
+/* background of the whole section */
+#parent{
+    background-color:antiquewhite
+}
+
+
+/* styling the last section before the footer */
+.last{
+    margin-left: 20%;
+        background-color: rgb(255, 207, 72);
+        margin-right: 20%;
+        margin-top: 5%;
+        padding: 50px;
+        position: relative;
+        border-radius: 20px;
+        top: 200px;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.demo{
+        text-align: center;
+           z-index: 5;
+            padding: 20px;
+            margin-left: 40%;
+            margin-top: 3%;
+}
+
+
+footer{
+    background-color: black;
+    padding-top: 18%;
+    padding-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3%;
+}
+
+.mail{
+    border-radius: 10px;
+        margin-top: 30px;
+        height: 40px;
+        background-color: gray;
+        color: white;
+        font-size: 20px;
+        padding: 7px;
+    
+}
+.mail::placeholder {
+    color: white;
+}
+
+.subscribe{
+    background-color: rgb(255, 207, 72);
+        margin-left: 12%;
+        margin-top: 10%;
+        max-height: 50px;
+        padding: 15px;
+        border-radius: 10px;
+        color: black;
+        cursor: pointer;
+
+}
+.subscribe:hover{
+    padding: 12px;
+}
+
+.bold{
+    font-weight: 800 !important;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+}
+.link:hover{
+    color: gray;
+}
+
+.copyright , .contact{
+    padding-top: 3%;
+    background-color: black;
+}
